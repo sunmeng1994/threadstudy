@@ -24,6 +24,6 @@ int main(void)
 	printf("we just can`t create the fucking thread");
     }
     printids("main thread:");
-    sleep(0);
+    sleep(1);
     exit(0);
 }
