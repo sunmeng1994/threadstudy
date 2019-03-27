@@ -8,7 +8,7 @@ void printids(const char * s)
     pthread_t tid;
     pid=getpid();
     tid=pthread_self();
-    printf("%s pid %lu tid (0x%lx)\n",(unsigned long )pid,(unsigned long)tid,(unsigned long)tid);  
+    printf("%s pid %lu tid %lu (0x%lx)\n",s,(unsigned long )pid,(unsigned long)tid,(unsigned long)tid);  
 }
 void * thr_fn(void*args)
 {
